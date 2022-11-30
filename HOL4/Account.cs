@@ -13,7 +13,7 @@ namespace _HOL4.Models
 
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
 
-        public int AccountNumber { get; set; }
+        public int AccountNumber { get; set;}
 
         public string Name { get; set; }
 
